@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>
-      <img src="../Fundamentals/restauranfood.jpg" alt='' width={100} height={300} />
+    <div className='footer'>
+      <img src="../Fundamentals/restauranfood.jpg" alt='' width={200} height={300} />
       <div>
         <h3>Doormat Navigation</h3>
         <br/>
@@ -27,6 +27,7 @@ Phone Number
 Email
 </div>
 <div>
+<h3>Social Media</h3>
   <ul>
   <li>Facebook</li>
   <li>Twitter</li>

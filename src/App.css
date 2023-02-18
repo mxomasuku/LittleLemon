@@ -1,38 +1,130 @@
-.App {
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{
+  display:grid;
+}
+/* At small screen */
+
+.nav_icons{
+display:flex;
+justify-content: space-between;
+}
+.nav-items{
+  display:none;
+}
+.hero{
+  background-color: #495753;
+}
+
+h1{
+  color: #F4CE14;
+  font-size: xx-large
+}
+h2{
+  color: #333333
+}
+
+.btn_primary{
+  background-color: #F4CE14;
+  color: #000000;
+  border-radius: 5px;
+  height: 2rem;
+}
+.specials_titles{
+  display: flex;
+  justify-content: space-between;
+}
+.hero_h2{
+  color: #edefee;
+}
+
+.testimonials_card{
+  background-color: white;
+}
+
+.testimonials_card > h3{
+font-size: small;
+}
+.testimonials_card > p{
+  font-size: smaller;
+}
+.testimonials_card_component{
+  display: flex;
+
+}
+
+
+.testimonials{
+  background-color: #edefee;
+  height: 50vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.testimonials_title{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.specialsCard{
+  background-color: #edefee;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.footer{
+  background-color: #161616 ;
+  display:flex;
+  justify-content: space-around;
+ padding: 4rem;
+ color: white
+}
+
+/* At large screen */
+@media screen and (min-width: 480px){
+  *{
+   margin:0;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .nav{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 1rem;
   }
-  to {
-    transform: rotate(360deg);
+  .nav-items{
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
   }
+  li{
+    margin-left: 1rem;
+  }
+  .hamburger{
+    display: none;
+  }
+  .hero{
+    display:flex;
+    margin: 0.5rem;
+    justify-content: center;
+  }
+  
+  .specials_cards_dock{
+    display: flex;
+  }
+  .testimonials_card_dock{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    }
+.about{
+  display: grid;
 }
+ .about_text_box{
+
+    }
+
+.about_image_box{
+
+}
+}
+

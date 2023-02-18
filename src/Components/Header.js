@@ -4,9 +4,13 @@ const Header = () => {
   return (
     <div>
          <header>
-      <nav>
-<div> <img src="../Fundamentals/logo.svg" alt='logo'></img> </div>
-<ul>
+      <nav className='nav'>
+<div className='nav_icons'>
+  <img src="../Fundamentals/logo.svg" alt='logo'/>
+  <img className="hamburger" src="../Fundamentals/icon _hamburger menu_.svg"/>
+</div>
+
+<ul className='nav-items'>
 <li>Home</li> 
 <li>About</li> 
 <li>Menu</li> 

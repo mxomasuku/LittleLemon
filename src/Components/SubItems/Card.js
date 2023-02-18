@@ -2,9 +2,9 @@ import React from 'react'
 
 const Card = () => {
   return (
-    <div>
+    <div className='specialsCard'>
      <div>
-            <img src="../Fundamentals/greek_salad.jpg" alt='' width={200} height={200}/>
+            <img src="../Fundamentals/greek_salad.jpg" alt='' width={300} height={200}/>
         </div>
         <div>
             <h3>Greek Salad</h3>
