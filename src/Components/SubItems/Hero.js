@@ -7,13 +7,12 @@ const Hero = () => {
         <div>
             <h1>Little Lemon</h1>
             <h2 className='hero_h2'>Chicago</h2>
-            <p> 
+            <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at tellusnec arcu faucibus viverra. I
             </p>
-            <button role="button" className='btn_primary'>Reserve a table</button>
+            <button role="article" className='btn_primary'>Reserve a table</button>
         </div>
         <div>
-          
         </div>
         <div>
             <img src="../Fundamentals/restauranfood.jpg" alt='' width={200} height={200} />
