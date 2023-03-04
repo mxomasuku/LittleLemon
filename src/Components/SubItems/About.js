@@ -4,9 +4,9 @@ const About = () => {
   return (
     <div className='about' >
       <div className='about_text_box'>
-      <h1>Little Lemon</h1>
-            <h2>Chicago</h2>
-            <p>
+      <h1 className='about_title'>Little Lemon</h1>
+            <h2 className='about_subtitle'>Chicago</h2>
+            <p className='about_pgraph'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at tellusnec arcu faucibus viverra. Sed at tellusnec arcu faucibus viverra. ISed at tellusnec arcu faucibus viverra. ISed at tellusnec 
             arcu faucibus viverra. I
             </p>

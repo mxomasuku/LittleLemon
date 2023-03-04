@@ -21,12 +21,17 @@ justify-content: space-between;
 
 
 .hero_title{
+  font-family: 'Markazi Text', serif;
   color: #F4CE14;
-  font-size: xx-large;
+  font-size: 64px;
   font-weight: bold;
+  
+
+
 }
 .specials_heading{
-  font-size: xx-large;
+  font-family: 'Markazi Text', serif;
+  font-size: 48px;
   font-weight: bold; 
 }
 h2{
@@ -47,8 +52,10 @@ h2{
   justify-content: space-between;
 }
 .hero_h2{
+  font-family: 'Markazi Text', serif;
   color: #edefee;
-  font-size: x-large ;
+  font-size: 48px ;
+  margin-top: 0;
 }
 
 .testimonials_card{
@@ -85,11 +92,13 @@ margin-top: 1rem;
 }
 
 .testimonials_title{
+  font-family: 'Markazi Text', serif;
   text-align: center;
-  font-size: xx-large;
+  font-size: 48px;
 }
 .specialsCard{
   background-color: #edefee;
+  border-top-left-radius: 50px 20px;
 }
 .specials_card_pricing{
 padding: 1rem;
@@ -108,11 +117,24 @@ justify-content: space-between
 }
 .specials_card_ptag{
   padding: 0.5rem;
+  font-family: 'Karla', sans-serif;
+}
+.error{
+  color: red;
+  font-size: small;
 }
 .specials_card_delivery{
   font-weight: bold;
   font-size: small;
-  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.specials_card_image{
+  border-top-left-radius: 50px 20px;
+}
+.specials_card_delivery_box{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem
 }
 .footer{
   margin-top: 10rem;
@@ -123,7 +145,20 @@ justify-content: space-between
  color: white;
 
 }
-
+.about_title{
+  font-family: 'Markazi Text', serif;
+  font-size: 64px;
+  color: #F4CE14;
+  font-weight: bold;
+}
+.about_subtitle{
+  font-family: 'Markazi Text', serif;
+  font-size: 48px;
+}
+.about_pgraph{
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+}
 /* At large screen */
 @media screen and (min-width: 480px){
   *{
@@ -151,7 +186,7 @@ justify-content: space-between
 
     margin: 0.5rem;
     justify-content: center;
-    height: 50vh;
+    height: 55vh;
     position: relative;
     text-align: start;
     margin-bottom: 10rem;
@@ -159,7 +194,7 @@ justify-content: space-between
   }
   .hero_text_box{
     margin-left: 11rem;
-    padding-top: 3rem;
+    padding-top: 1rem;
 
   }
   .heroImage{
@@ -172,7 +207,9 @@ justify-content: space-between
 
   }
   .heroParagraph{
-    padding-top: 2rem;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    padding-top: 1rem;
     padding-bottom: 2rem;
     width: 300px;
     color:#edefee
@@ -197,8 +234,8 @@ justify-content: space-between
 .about{
   display: flex;
   justify-content: end;
-  margin-left: 10rem;
-  gap: 12rem;
+  margin-left: 24rem;
+  gap: 4rem;
 
 }
  .about_text_box{
@@ -210,13 +247,18 @@ flex: 1;
 }
 .about_image_1{
   margin: -150px;
+  border-radius: 25px
   
 }
 .about_image_2{
-  /* position: absolute;
-  top: 200px;
-  right: 500px; */
   display: inline-block;
+  border-radius: 25px
+  
+}
+.about_pgraph{
+  font-size: medium;
+  margin-top: 3rem;
+  width: 300px;
   
 }
 }
