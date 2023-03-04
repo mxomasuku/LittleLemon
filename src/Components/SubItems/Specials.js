@@ -1,13 +1,14 @@
 import React from 'react'
 import Card from './Card'
+import { Link } from 'react-router-dom'
 
 
 const Specials = () => {
   return (
-    <div>
+    <div className="specials">
       <div className='specials_titles'>
-        <h2>This week's specials</h2>
-        <button role="View Specials" className='btn_primary'>Online Menu</button>
+        <h1 className='specials_heading'>This week specials</h1>
+        <Link to="/orderonline"><button role="View Specials" className='btn_primary orderonline'>Online Menu</button></Link>
         </div>
         <div className='specials_cards_dock'>
         <Card/>
