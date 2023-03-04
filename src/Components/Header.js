@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 const Header = () => {
   return (
-    <div>
+    <div data-testid='header-1'>
          <header>
       <nav className='nav'>
 <div className='nav_icons'>
