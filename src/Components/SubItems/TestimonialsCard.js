@@ -5,8 +5,8 @@ const TestimonialsCard = () => {
     <div className='testimonials_card'>
         <h3>Rating</h3>
         <div className='testimonials_card_component'>
-            <img src="./Fundamentals/M_and_b.jpg" width={50} height={50} alt=""/>
-            <p>Name</p>
+            <img src="./Fundamentals/M_and_b.jpg" width={50} height={50} alt="" className='testimonials_card_image'/>
+            <p className='testimonials_name'>Name</p>
         </div>
         <p>Review Tab</p>
 

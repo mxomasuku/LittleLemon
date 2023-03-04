@@ -12,8 +12,8 @@ const About = () => {
             </p>
       </div>
       <div className='about_image_box'>
-      <img src="../Fundamentals/restauranfood.jpg" alt='' width={200} height={200} />
-      <img src="../Fundamentals/restauranfood.jpg" alt='' width={200} height={200} />
+      <img src="../Fundamentals/restauranfood.jpg" alt='' width={200} height={200} className="about_image_2" />
+      <img src="../Fundamentals/restauranfood.jpg" alt='' width={200} height={200} className="about_image_1"/>
       </div>
     </div>
   )
